@@ -13,7 +13,7 @@ const NewQuote = () => {
     if (status === 'completed') {
       history.push('/quotes');
     }
-  }, [status]);
+  }, [status])
 
   const addQuoteHandler = (quoteData) => {
     sendRequest(quoteData);
